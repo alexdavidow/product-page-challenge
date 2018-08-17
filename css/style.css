@@ -1,0 +1,116 @@
+body {
+	font-family: flama, helvetica,Arial,sans-serif;
+	font-size: 12px;
+}
+ul li {
+	list-style: none;
+}
+#brand-logo {
+	text-align: center;
+}
+.top-nav-container {
+	margin: 0 auto;
+	width: 100%;
+}
+.nav-menu {
+  position: relative;
+  background: #2d2d2d;
+  text-align: center;
+}
+.nav-menu li {
+	display: inline-block;
+	color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 7px;
+  padding: 3px;
+}
+.nav-menu li.home {
+	background-color: #3E357A;
+  border-left: 2px solid #fff;
+  margin-right: -10px;
+  padding-right: 5px;
+}
+.breadcrumb, .tiles {
+	list-style: none;
+	padding-left: 2px;
+}
+.breadcrumb li, .tile-list li {
+	display: inline-block;
+}
+.breadcrumb li.first:before {
+	content: none;
+}
+.breadcrumb li.active {
+	font-weight: bold;
+}
+.breadcrumb li:before {
+  content: ">";
+  color: grey;
+  margin: 0 5px;
+}
+.hero-image {
+	float: left;
+	width: 65%;
+	overflow: hidden;
+	text-align: center;
+}
+.description {
+	width: 33%;
+	overflow: hidden;
+	float: left;
+	margin: 0 10px;
+}
+.quantity {
+	width: 40px;
+  height: 29px;
+}
+.cart-button {
+	background: url(https://www.williams-sonoma.com/wsimgs/rk/images/i/201833/0001/images/common/btn_add_to_basket.gif) no-repeat;
+	display: block;
+	color: #fff;
+  width: 150px;
+  height: 42px;
+	text-transform: uppercase;
+  margin-top: 10px;
+}
+#accordion {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 4px 0;
+  margin-top: 12px;
+}
+.accordion-content.clp {
+	display: none;
+}
+.accordion-content {
+	padding: 2px 0 0 14px;
+  margin: 5px;
+}
+.accordion-toggle {
+	cursor: pointer;
+	border-top: 0.2px solid #D3D3D3;
+}
+.accordion-toggle.exp {
+	background: url("https://www.williams-sonoma.com/wsimgs/rk/images/i/201833/0001/images/common/arr_down.png") no-repeat;
+	padding: 0 14px;
+}
+.accordion-toggle.clp {
+	background: url("https://www.williams-sonoma.com/wsimgs/rk/images/i/201833/0001/images/common/arr_right.png") 0 8px no-repeat;
+	padding: 8px 14px;
+}
+
+.tiles {
+  clear: both;
+  margin: 3%;
+}
+ .tile-list li.active {
+	border: 1px solid #000;
+}
+.confirmation {
+	color: #008000;
+	font-weight: 700;
+  position: relative;
+  left: 43%;
+  top: -40px;
+}
