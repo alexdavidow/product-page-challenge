@@ -1,3 +1,3 @@
 # product-page-challenge
 
-Please download the folder and then drag the index page to a web browser to view. 
+Please clone or download the repo and then drag the index page to a web browser to view. 
